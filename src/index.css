@@ -1,0 +1,16 @@
+.jumbotron {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #010125;
+    color: white;
+}
+.searchbox-wrapper {
+    float:right;
+    margin: 15px;
+}
+section {
+    padding: 15px;
+}
+.card-img-top {
+    width: 100px;
+}

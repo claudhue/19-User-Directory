@@ -1,15 +1,16 @@
 import React from "react";
-import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
-import Main from "./components/Main";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+import Directory from "./pages/Directory";
+import Nav from "./components/Nav"
+import Search from "./components/Search"
+
 
 function App() {
   return (
-    <div className="App">
-      <Wrapper>
-        <Header />
-        <Main />
-      </Wrapper>
+    <div>
+      <Nav/>
+      <Search/>
+      <Directory/>
     </div>
   );
 }
